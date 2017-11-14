@@ -527,8 +527,8 @@ tr {
 }
 
 @media print {
-    a:after {
-        content: " (" attr(href) ") ";
+    [data-print-url]:after {
+        content: " (" attr(data-print-url) ") ";
         font-size: 0.8em;
         font-weight: normal;
     }
