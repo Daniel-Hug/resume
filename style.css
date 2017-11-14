@@ -512,6 +512,20 @@ tr {
     padding: 0;
     border: 0;
 }
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
 @media print {
     a:after {
         content: " (" attr(href) ") ";
