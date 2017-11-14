@@ -533,3 +533,7 @@ tr {
         font-weight: normal;
     }
 }
+
+h3 {
+    margin: 1.3em 0 1.2em;
+}
