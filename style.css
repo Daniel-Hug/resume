@@ -497,6 +497,7 @@ ol ol {
 .contact-table {
     float: right;
     margin-top: 58.5px;
+    margin-bottom: -35px;
 }
 h2:first-of-type {
     clear: both;
@@ -532,8 +533,12 @@ tr {
         font-size: 0.8em;
         font-weight: normal;
     }
+
+    .title, .contact-table {
+        margin-top: 12px;
+    }
 }
 
 h3 {
-    margin: 1.3em 0 1.2em;
+    margin: 1.3em 0 1.0em;
 }
